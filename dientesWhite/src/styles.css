@@ -5,4 +5,48 @@
 :root{
     box-sizing: border-box;
     color-scheme: dark;
+    font-family: 'iphone-general';
 }
+@font-face {
+    font-family: 'iphone-lower';
+    src: url('../public/fuenteIphone/SFPRODISPLAYBLACKITALIC.OTF') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'iphone-lowerv2';
+    src: url('../public/fuenteIphone/SFPRODISPLAYBOLD.OTF') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'iphone-medium';
+    src: url('../public/fuenteIphone/SFPRODISPLAYHEAVYITALIC.OTF') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'iphone-general';
+    src: url('../public/fuenteIphone/SFPRODISPLAYMEDIUM.OTF') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+.loader {
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    animation: l5 1s infinite linear alternate;
+    margin: auto;
+    margin-top: 20vh;
+  }
+  @keyframes l5 {
+      0%  {box-shadow: 20px 0 #000, -20px 0 #0002;background: #000 }
+      33% {box-shadow: 20px 0 #000, -20px 0 #0002;background: #0002}
+      66% {box-shadow: 20px 0 #0002,-20px 0 #000; background: #0002}
+      100%{box-shadow: 20px 0 #0002,-20px 0 #000; background: #000 }
+  }
+  
