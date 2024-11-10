@@ -4,8 +4,16 @@
 
 :root{
     box-sizing: border-box;
-    color-scheme: dark;
     font-family: 'iphone-general';
+    background-color:#9333ea;
+    text-color:white;
+    color:white
+}
+.bg-profile{
+    background-image:url('../public/img/Fondo.png');
+    background-size: 78%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 @font-face {
     font-family: 'iphone-lower';
