@@ -1,4 +1,4 @@
-const toggleClass = (
+  const toggleClass = (
   element: HTMLElement,
   add: string[],
   remove: string[]
