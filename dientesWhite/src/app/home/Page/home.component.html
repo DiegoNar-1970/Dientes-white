@@ -3,11 +3,11 @@
         <app-navigate/>
     </div>
     <section class="flex flex-col z-10 relative">
-        <h1 class="text-[40px] max-w-[600px]">los mejores en</h1>
-        <h1 class="text-[40px] max-w-[600px]">diagnostico y</h1>
-        <h1 class="text-[40px] max-w-[600px]">prevencion para el</h1>
-        <h1 class="text-[40px] max-w-[600px]">cuidado de tu sonrisa</h1>
-        <p class="max-w-[600px] text-[18px]">
+        <h1 class="text-[40px] max-w-[600px] text-purple-400">los mejores en</h1>
+        <h1 class="text-[40px] max-w-[600px] text-purple-400">diagnostico y</h1>
+        <h1 class="text-[40px] max-w-[600px] text-purple-400">prevencion para el</h1>
+        <h1 class="text-[40px] max-w-[600px] text-purple-400">cuidado de tu sonrisa</h1>
+        <p class="max-w-[600px] text-[18px] text-purple-50">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Atque dolorum molestias asperiores debitis dicta sit odio,
             rem magni? Distinctio, placeat nobis alias velit perferendis veritatis.
@@ -37,7 +37,7 @@
             <picture>
                 <img class="max-w-[60px]"  src="img/normal.png" alt="normal">
             </picture>
-            <h2 class="text-purple-600 text-[1.3em]">Rehabilitación oral</h2>
+            <h2 class="text-purple-400 text-[1.3em]">Rehabilitación oral</h2>
             <P>Devolvemos la armonía a tu sonrisa brindándote un diagnostico y tratamiento adecuado.</P>
         </div>        
         <div class="text-black flex flex-col max-w-[300px] p-2 justify-center items-center gap-4 text-center bg-white h-[370px] mt-[40px] 
@@ -45,7 +45,7 @@
             <picture>
                 <img class="max-w-[60px]"  src="img/clean.png" alt="normal">
             </picture>
-            <h2 class="text-purple-600 text-[1.3em]">Rehabilitación oral</h2>
+            <h2 class="text-purple-400 text-[1.3em]">Rehabilitación oral</h2>
             <P>Devolvemos la armonía a tu sonrisa brindándote un diagnostico y tratamiento adecuado.</P>
         </div>
         <div class="text-black flex flex-col max-w-[300px] p-2 justify-center items-center gap-4 text-center bg-white h-[370px] mt-[40px] 
@@ -53,19 +53,44 @@
             <picture>
                 <img class="max-w-[60px]"  src="img/big.png" alt="normal">
             </picture>
-            <h2 class="text-purple-600 text-[1.3em]">Rehabilitación oral</h2>
+            <h2 class="text-purple-400 text-[1.3em]">Rehabilitación oral</h2>
             <P>Devolvemos la armonía a tu sonrisa brindándote un diagnostico y tratamiento adecuado.</P>
         </div>
 </article>  
 
-<article class="bg-black h-[200px]">
-    <div class="w-[50%] ">
-        <p OnMauseMove [tiltSpeed]="5"
+<article class="flex flex-wrap sm:flex-wrap md:flex-nowrap text-black p-[3em] h-[700px] items-center min-w-[400px]">
+    <div class="flex w-full h-full flex-wrap gap-2 
+    sm:flex-wrap  md:flex  md:flex-nowrap 
+    transition-all shadow-[0px_4px_15px_-5px_rgba(0,0,0,0.1)] p-3">
+        <div class="flex flex-col gap-3 p-2">
+            <h3 class=" text-[2.5em] text-purple-400  p-2">Blanqueamieto dental</h3>
+            <p class="text-[1.3em] p-2 w-full sm:w-full md:w-[200px] ">
+                El blanqueamiento dental es un procedimiento que aclara 
+                el tono de los dientes, eliminando manchas 
+                y decoloraciones para mejorar la apariencia de la sonrisa</p>
+            <button class="text-[1.6em] self-start rounded-md p-2 bg-purple-600 hover:bg-purple-700 transition-all text-white hover:animate-bounce"> Quiero saber mas</button>
+        </div>
+        <picture class="">
+            <img src="img/Consultorio.jpg" class="object-cover w-full h-full object-[7  0%_50%]" alt="">
+        </picture>
+    </div>
+    <div class="flex w-full h-full flex-wrap gap-2 sm:flex-wrap  md:flex  md:flex-nowrap transition-all shadow-[0px_4px_15px_-5px_rgba(0,0,0,0.1)] p-3">
+        <div class="flex flex-col justify-center items-center gap-6 p-[2em] ">
+            <h3 class=" text-[2.2em] text-purple-700  ">Blanqueamieto dental</h3>
+            <p class="text-[1.1em] p-[1em]">
+                El blanqueamiento dental es un procedimiento que aclara el tono de los dientes, 
+                eliminando manchas y decoloraciones 
+                para mejorar la apariencia de la sonrisa</p>
+            <button> Quiero saber mas</button>
+        </div>
+        <picture class="">
+            <img src="img/Consultorio.jpg" class="object-cover w-full h-full object-[7  0%_50%]" alt="">
+        </picture>
+    </div>
+  </article>
+   <!-- <p OnMauseMove [tiltSpeed]="5"
          class="box text-black bg-blue-500 shadow-2xl h-[600px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium porro sit
           amet, accusamus ratione perspiciatis quasi sint. Veritatis perspiciatis
           quaerat quidem vero commodi, impedit doloremque sint nobis modi, quia omnis.
-        </p>
-        
-    </div>
-  </article>
+        </p> -->
